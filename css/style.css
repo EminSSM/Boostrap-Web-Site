@@ -1,0 +1,112 @@
+.resimslider{
+    height:100vh;
+}
+:root{
+    --main-color:#ddd9d9;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+section h2{
+    font-weight: bold;
+}
+.hakkimizda{
+    background-color: var(--main-color);
+}
+.ayraç{
+    border: 3px solid #464040;
+    max-width: 400px;
+    margin: 15px auto;
+}
+.ibeyaz{
+    color:#464040 ;
+    font-size: 40px;
+    position: relative;
+    top: -45px;
+    border: 10px solid #fff ;
+    margin: -5px;
+    background-color: #fff;
+}
+.igri{
+    color:#464040 ;
+    font-size: 40px;
+    position: relative;
+    top: -45px;
+    border: 10px solid var(--main-color) ;
+    margin: -5px;
+    background-color: var(--main-color);
+}
+.ekipkart img:hover{
+    opacity: 0.8;
+}
+.galeri{
+    background-color: var(--main-color);
+}
+figure:hover{
+    opacity: 0.8;
+}
+.iletisim{
+    background-color: rgb(132, 146, 144);
+}
+.form-control{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    position: relative;
+    left: 590px;
+}
+.i{
+    color:#464040 ;
+    font-size: 40px;
+    position: relative;
+    top: -45px;
+    border: 10px solid rgb(132, 146, 144) ;
+    margin: -5px;
+    background-color: rgb(132, 146, 144);
+}
+
+@media (max-width:1200px){
+    html{
+        overflow-x: hidden;
+    }
+    .navbar #menu a{
+        font-size: 85%;
+    }
+    .navbar #menu button{
+        font-size: 85%;
+    }
+    
+   .form-group input{
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: 150px; 
+   }
+   .form-group #textarea{
+    width: 300px;
+    position: relative;
+    left: 150px;
+   }
+   .form-group button{
+    position: relative;
+    left: 350px;
+    width: 100px;
+    text-align: center;
+    
+   }
+   .form-group label{ 
+    position: relative;
+    left: -150px;
+    top: 10px;
+   } 
+   #iletisim .form-group{
+    padding: 8px;
+   }
+} 
+
+
+
+ 
